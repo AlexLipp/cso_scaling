@@ -1,6 +1,6 @@
 # Fitting heavy tailed distributions to CSO spill durations 
 
-This repository contains a demonstration of the heavy tailed distribution fitting described in the manuscript '_Groundwater infiltration drives heavy--tailed distributions of Combined Sewer Overflow durations: insights from Event Duration Monitoring_' by Alex Lipp & Barnaby Dobson 
+This repository contains a demonstration of the heavy tailed distribution fitting described in the manuscript '_Groundwater infiltration drives heavy-tailed distributions of Combined Sewer Overflow durations: insights from Event Duration Monitoring_' by Alex Lipp & Barnaby Dobson 
 
 ## Installation
 
