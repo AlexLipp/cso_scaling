@@ -14,35 +14,22 @@ This repository contains a demonstration of the heavy tailed distribution fittin
 
 2. **Navigate to the project directory** in your terminal:
    ```bash
-   cd /path/to/CSO_powerlaw
+   cd /path/to/cso_scaling
    ```
 
-3. **Create a virtual environment** (recommended):
-   ```bash
-   python -m venv venv
-   ```
+3. **Create and activate a virtual environment** (recommended):
 
-4. **Activate the virtual environment**:
-   - On Linux/Mac:
-     ```bash
-     source venv/bin/activate
-     ```
-   - On Windows:
-     ```bash
-     venv\Scripts\activate
-     ```
-
-5. **Install the required packages**:
+4. **Install the required packages**:
    ```bash
    pip install -r requirements.txt
    ```
 
-### Required Packages
+### Required Packages 
 
 - **matplotlib** - for plotting and visualization
 - **numpy** - for numerical computations
 - **pandas** - for data manipulation and analysis
-- **powerlaw** - for fitting power law distributions
+- [**powerlaw**](https://pypi.org/project/powerlaw/) - for fitting power law distributions
 
 ## Usage
 
@@ -51,3 +38,4 @@ With the virtual environment activated, you can run the example script:
 ```bash
 python fit_distribution.py
 ```
+This fits heavy tailed distributions, including the stretched exponential to the 2023 Event Duration Monitoring data from Southern Water. 
